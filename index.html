@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LexiTravail — Prototype et usage des API France Travail</title>
+  <meta name="description" content="Page d'information LexiTravail concernant l'usage prévu des API France Travail dans un prototype de source-grounding métier." />
+  <style>
+    :root {
+      --bg: #f7f4ee;
+      --card: #ffffff;
+      --text: #1f2933;
+      --muted: #59636e;
+      --line: #e5ded2;
+      --accent: #7a4e2b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    main {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 48px 20px 72px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 34px;
+      box-shadow: 0 12px 30px rgba(31, 41, 51, 0.06);
+    }
+    h1 {
+      margin-top: 0;
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+    }
+    h2 {
+      margin-top: 34px;
+      font-size: 1.35rem;
+      color: var(--accent);
+    }
+    p, li { font-size: 1rem; }
+    .lead {
+      font-size: 1.15rem;
+      color: var(--muted);
+    }
+    .notice {
+      padding: 16px 18px;
+      border-left: 4px solid var(--accent);
+      background: #fbf8f3;
+      border-radius: 12px;
+      margin: 24px 0;
+    }
+    ul { padding-left: 1.25rem; }
+    footer {
+      margin-top: 30px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card">
+      <h1>LexiTravail</h1>
+      <p class="lead">Prototype de méthode de réanalyse professionnelle assistée, conçu pour structurer des parcours d’emploi, d’insertion et de reconversion à partir de sources vérifiables et de validations humaines.</p>
+
+      <div class="notice">
+        <strong>Statut actuel :</strong> LexiTravail est en phase de prototype et de démonstration fictive. Aucun dossier réel d’usager n’est traité à ce stade.
+      </div>
+
+      <h2>Usage prévu des API France Travail</h2>
+      <p>Les API France Travail seront utilisées uniquement pour appuyer le source-grounding métier du prototype LexiTravail.</p>
+      <ul>
+        <li>consulter ou vérifier des référentiels métiers ;</li>
+        <li>vérifier des codes ROME et des intitulés métiers ;</li>
+        <li>rechercher des offres d’emploi à des fins de recoupement marché ;</li>
+        <li>documenter les sources utilisées dans des cas fictifs ou des démonstrations contrôlées.</li>
+      </ul>
+
+      <h2>Ce que LexiTravail ne fait pas</h2>
+      <ul>
+        <li>LexiTravail ne remplace pas un conseiller emploi, insertion ou reconversion.</li>
+        <li>LexiTravail ne prend aucune décision automatique.</li>
+        <li>LexiTravail ne promet pas d’emploi, de formation, de financement ou de réussite d’un parcours.</li>
+        <li>LexiTravail ne traite pas de dossier réel dans ses démonstrations.</li>
+        <li>LexiTravail ne collecte pas de données médicales, juridiques ou sociales détaillées.</li>
+      </ul>
+
+      <h2>Données personnelles</h2>
+      <p>À ce stade, le prototype ne collecte aucune donnée personnelle d’usager. Les démonstrations sont réalisées uniquement à partir de cas fictifs conçus pour être impossibles à relier à une personne réelle.</p>
+
+      <h2>Validation humaine</h2>
+      <p>Les restitutions LexiTravail sont des aides à l’analyse. Toute utilisation professionnelle future devra être encadrée par une validation humaine, un cadrage RGPD, et, si nécessaire, une revue juridique et DPO.</p>
+
+      <h2>Contact</h2>
+      <p>Projet porté par Bertrand SCHOLZEN.</p>
+
+      <footer>
+        Dernière mise à jour : juin 2026. Page créée pour présenter l’usage prévu des API France Travail dans le cadre du prototype LexiTravail.
+      </footer>
+    </section>
+  </main>
+</body>
+</html>
